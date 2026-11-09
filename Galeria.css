@@ -1,0 +1,142 @@
+:root{
+    --tamanhoTexto: 18px;
+    --corTexto: white;
+    --corTitulo: #EB579F;
+    --fontTexto:  "Open Sans", sans-serif;
+    --fontTitulo: "BankGothic Md BT Medium", sans-serif;
+    --fontEspessura: 10px;
+    --fontEspessura2: 24px;
+    
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ 
+body{
+    background-color: black;
+}
+
+nav{   
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.txt{ 
+    position: absolute;
+    left: 60%;
+    font-family: var(--fontTitulo);
+    width: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    font-size: 14px;
+    font-weight: var(--fontEspessura2);
+}
+nav a{
+    text-decoration: none;
+    color:var(--corTexto);
+    
+}
+
+nav a:hover {
+    transform: scale(1.2);
+    color:var(--corTitulo);
+     transition: transform 0.3s ease
+}
+
+.logo{
+    height: 100px;
+    position: absolute;
+    left: 7%;
+    margin-top:30px ;
+}
+
+
+.logo  img{
+
+    width: 119px;
+    
+}
+
+
+footer {
+    display: flex;
+    font-family: var(--fontTitulo);
+    width: 100%;
+    height: 65px;
+    color:var(--corTitulo);
+    background-color: black;
+    padding: 15px;
+    padding-left: 35px;
+    align-items: center;
+    font-size: 11px;
+
+}
+
+.titulog{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+
+.titulog h1{
+    color: var(--corTexto);
+    font-family: var(--fontTitulo);
+    font-size: 50px;
+    position: absolute;
+    font-weight: var(--fontEspessura2);
+
+}
+
+.titulog h2{
+    color: var(--corTitulo);
+    font-family: var(--fontTitulo);
+    font-size: 22px;
+    font-weight: var(--fontEspessura);
+
+}
+
+.imgGaleria .gp1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imgGaleria .gp2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imgGaleria{
+    display: flex;  
+    gap: 15px;
+    flex-direction: column;
+    width: 1000px;
+    padding: 50px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.imgGaleria figure img{
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid var(--corTitulo);
+}
