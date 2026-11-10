@@ -126,7 +126,7 @@ footer {
 
 .imgGaleria{
     display: flex;  
-    gap: 15px;
+    gap: 20px;
     flex-direction: column;
     width: 1000px;
     padding: 50px;
@@ -135,8 +135,11 @@ footer {
     left: 10%;
 }
 
+
 .imgGaleria figure img{
     width: 450px;
     border-radius: 10px;
-    border: 2px solid var(--corTitulo);
+    height: 235px;         
+    object-fit: cover ;      
+    padding: 10px;
 }

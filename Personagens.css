@@ -15,6 +15,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -144,6 +145,7 @@ img{
 .figuras{
     
     padding-top: 400px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -491,11 +493,9 @@ img{
 
     /* SEÇÃO PRINCIPAL */
     .pt{
-        height: auto;
+        
         min-height: 100vh;
         padding-bottom: 40px;
-        display: flex;
-        flex-direction: column;
         gap: 100px;
     }
 
@@ -513,9 +513,9 @@ img{
     }
 
     .figuras{
-        min-width:  350px;
-        padding-top: 250px;
-        padding-left: 3%;
+        min-width: 300px;
+        padding-top: 290px;
+        padding-left: 9%;
         gap: 30px;
     }
 
