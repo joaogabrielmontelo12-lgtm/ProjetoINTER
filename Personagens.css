@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
  
 body{
     background-color: black;
@@ -94,8 +98,9 @@ footer {
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
-    border-bottom: 5px solid var(--corTitulo);
-    height: 100vh;
+    border-bottom: 2px solid var(--corTitulo);
+    min-height: 100vh; 
+    padding-bottom: 60px;
 }
 
 
@@ -126,6 +131,16 @@ footer {
 }
 
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.figuras a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .figuras{
     
     padding-top: 400px;
@@ -133,10 +148,13 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    
 
 }
 .figuras img{
     width: 380px;
+    height: 235px;         
+    object-fit: cover;      
     border-radius: 15px;
     padding: 10px;
 }
@@ -147,11 +165,13 @@ footer {
 
 }
 
-.figuras figure{
+.figuras figure {
     border: 2px solid var(--corTitulo);
     border-radius: 10px;
     background-color: rgba(0,0,0,0.5);
+    width: 380px;
     height: 350px;
+    flex-shrink: 0;
 }
 
 .figuras figcaption h2{
@@ -179,19 +199,19 @@ footer {
     
     background-size: cover;
     position: relative;
+    border-bottom: 2px solid var(--corTitulo);
 
 }
 
 .Personagens img{
     height: 500px;
     border-radius: 10px;
-    border: 2px solid var(--corTitulo);
+    border: 1px solid var(--corTitulo);
 }
 
 .Personagens .img5{
-   
-   top: 12%;
-   left: 15%;
+    top: 12%;
+    left: 15%;
 }
 
 .Personagens h1{
@@ -199,20 +219,22 @@ footer {
     font-family: var(--fontTitulo);
     font-size: 90px;
     position: absolute;
-    top: 5%;
-    left: 12%;
+    top: 9%;
+    left: 13%;
 }
 
 
 .Personagens .info1{
     color: var(--corTexto);
-
+    
+    
     width: 550px;
     height: fit-content;
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 2px solid var(--corTitulo);
+    border: 1px solid var(--corTitulo );
+    
 }
 
 .Personagens .info1 h2{
@@ -223,11 +245,456 @@ footer {
 
 .Personagens .perso1{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 15%;
     display: flex;
     align-items: center;
     gap: 350px;
-    width: 100%;
+    
+}
+
+
+.Personagens2{
+    height: 100vh; 
+    background: 
+    radial-gradient(rgba(0, 0, 0, 0),black),
+        url(https://ovicio.com.br/wp-content/uploads/pantera-negra-killmonger.jpg),
+        radial-gradient(rgba(0,0,0,0.8),black);
+    
+    background-size: cover;
+    position: relative;
+    border-bottom: 2px solid var(--corTitulo);
+
+}
+
+.Personagens2 img{
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo);
+}
+
+.Personagens2 .img6{
+    top: 12%;
+    left: 15%;
+}
+
+.Personagens2 h1{
+    color: var(--corTexto);
+    font-family: var(--fontTitulo);
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 13%;
+}
+
+
+.Personagens2 .info2{
+    color: var(--corTexto);
+    
+    
+    width: 550px;
+    height: fit-content;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo );
+    
+}
+
+.Personagens2 .info2 h2{
+    font-size:20px ;
+    font-family: var(--fontTitulo);
+    font-size: var(--tamanhoTexto);
+}
+
+.Personagens2 .perso2{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    
+}
+
+.Personagens3{
+    height: 100vh; 
+    background: 
+    radial-gradient(rgba(0, 0, 0, 0),black),
+        url(https://ovicio.com.br/wp-content/uploads/2022/07/20220725-20220725_215557.jpg),
+        radial-gradient(rgba(0,0,0,0.8),black);
+    
+    background-size: cover;
+    position: relative;
+    border-bottom: 2px solid var(--corTitulo);
+
+}
+
+.Personagens3 img{
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo);
+}
+
+.Personagens3 .img7{
+    top: 12%;
+    left: 15%;
+}
+
+.Personagens3 h1{
+    color: var(--corTexto);
+    font-family: var(--fontTitulo);
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 16.5%;
+}
+
+
+.Personagens3 .info3{
+    color: var(--corTexto);
+    
+    
+    width: 550px;
+    height: fit-content;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo );
+    
+}
+
+.Personagens3 .info3 h2{
+    font-size:20px ;
+    font-family: var(--fontTitulo);
+    font-size: var(--tamanhoTexto);
+}
+
+.Personagens3 .perso3{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    
+}
+
+.Personagens4{
+    height: 100vh; 
+    background: 
+    radial-gradient(rgba(0, 0, 0, 0),black),
+        url(https://rollingstone.com.br/wp-content/uploads/shuri_e_pantera_negra.jpg),
+        radial-gradient(rgba(0,0,0,0.8),black);
+    
+    background-size: cover;
+    position: relative;
+    border-bottom: 2px solid var(--corTitulo);
+
+}
+
+.Personagens4 img{
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo);
+}
+
+.Personagens4 .img8{
+    top: 12%;
+    left: 15%;
+}
+
+.Personagens4 h1{
+    color: var(--corTexto);
+    font-family: var(--fontTitulo);
+    font-size: 90px;
+    position: absolute;
+    top: 9%;
+    left: 16.5%;
+}
+
+
+.Personagens4 .info4{
+    color: var(--corTexto);
+    
+    
+    width: 550px;
+    height: fit-content;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--corTitulo );
+    
+}
+
+.Personagens4 .info4 h2{
+    font-size:20px ;
+    font-family: var(--fontTitulo);
+    font-size: var(--tamanhoTexto);
+}
+
+.Personagens4 .perso4{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    
+}
+
+@media (max-width: 1100px) {
+
+    .logo{
+        left: 3%;
+    }
+
+    .txt{
+        left: auto;
+        right: 3%;
+        width: auto;
+        margin-right: 0;
+        gap: 25px;
+    }
+
+    .PP h2{
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 90%;
+    }
+
+    .figuras{
+        flex-wrap: wrap;
+    }
+
+    .Personagens .perso1{
+        gap: 60px;
+        width: 85%;              /* corrige a barra lateral */
+    }
+}
+
+
+/* ---------- CELULAR / TABLET PEQUENO ---------- */
+@media (max-width: 768px) {
+
+    /* NAV */
+    .txt{
+        gap: 12px;
+        font-size: 5px;
+    }
+
+    .logo img{
+        width: 80px;
+        padding-top: 12px;
+    }
+
+    /* SEÇÃO PRINCIPAL */
+    .pt{
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    
+
+    .PP h1{
+        font-size: 28px;
+        width: 90%;
+        text-align: center;
+        
+    }
+
+    .PP h2{
+        font-size: 16px;
+    }
+
+    .figuras{
+        min-width:  350px;
+        padding-top: 250px;
+        padding-left: 3%;
+        gap: 30px;
+    }
+
+    .figuras figcaption{
+        padding-bottom: 12px;
+        
+    }
+
+    .figuras figure{
+    width: 90%;
+    max-width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+    .figuras img{
+        width: 100%;
+    }
+
+
+    .Personagens{
+        height: auto;
+        min-height: 100vh;
+        padding: 5%;
+    }
+
+    .Personagens h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens .perso1{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 45px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens .info1{
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    .Personagens2{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens2 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens2 .perso2{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens2 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens2 .info2{
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    .Personagens3{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens3 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens3 .perso3{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens3 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens3 .info3{
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    .Personagens4{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens4 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens4 .perso4{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens4 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens4 .info4{
+        max-width: 80%;
+        padding: 20px;
+    }
+
+
+}
+
+@media (max-width: 1500px) {
+    .Personagens .perso1{
+        left: 5%;
+        width: 90%;
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Personagens .info1{
+        width: 100%;
+        max-width: 550px;
+    }
 }
 
