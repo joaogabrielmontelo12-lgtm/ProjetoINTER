@@ -95,11 +95,12 @@ footer {
 .pt{
     background: 
     radial-gradient(rgba(0, 0, 0, 0),black),
-        url(IMG/images\ \(1\).jpg),
+        url(https://cienciahoje.org.br/wp-content/uploads/2019/08/ciencia-e-cultura-pop_ch357.jpg),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
-    border-bottom: 2px solid var(--corTitulo);
+    background-position: center;
+    border-bottom: 1px solid var(--corTitulo);
     min-height: 100vh; 
     padding-bottom: 60px;
 }
@@ -168,7 +169,7 @@ img{
 }
 
 .figuras figure {
-    border: 2px solid var(--corTitulo);
+    border: 2px solid ar(--corTitulo);
     border-radius: 10px;
     background-color: rgba(0,0,0,0.5);
     width: 380px;
@@ -195,20 +196,20 @@ img{
 .Personagens{
     height: 100vh; 
     background: 
-    radial-gradient(rgba(0, 0, 0, 0),black),
+    radial-gradient(rgba(0, 0, 0, 0.3),black),
         url(IMG/black_panther_chadwick_boseman_2_f321b65a.jpeg),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
     position: relative;
-    border-bottom: 2px solid var(--corTitulo);
+    border-bottom: 1px solid var(--corTitulo);
 
 }
 
 .Personagens img{
     height: 500px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo);
+    border: 1px solid vr(--corTitulo);
 }
 
 .Personagens .img5{
@@ -217,7 +218,7 @@ img{
 }
 
 .Personagens h1{
-    color: var(--corTexto);
+    color: var(--corTitulo);
     font-family: var(--fontTitulo);
     font-size: 90px;
     position: absolute;
@@ -235,7 +236,7 @@ img{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo );
+    border: 1px solid vr(--corTitulo);
     
 }
 
@@ -259,20 +260,20 @@ img{
 .Personagens2{
     height: 100vh; 
     background: 
-    radial-gradient(rgba(0, 0, 0, 0),black),
+    radial-gradient(rgba(0, 0, 0, 0.4),black),
         url(https://ovicio.com.br/wp-content/uploads/pantera-negra-killmonger.jpg),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
     position: relative;
-    border-bottom: 2px solid var(--corTitulo);
+    border-bottom: 1px solid var(--corTitulo);
 
 }
 
 .Personagens2 img{
     height: 500px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo);
+    border: 1px solid vr(--corTitulo);
 }
 
 .Personagens2 .img6{
@@ -281,7 +282,7 @@ img{
 }
 
 .Personagens2 h1{
-    color: var(--corTexto);
+    color: var(--corTitulo);
     font-family: var(--fontTitulo);
     font-size: 90px;
     position: absolute;
@@ -299,7 +300,7 @@ img{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo );
+    border: 1px solid vr(--corTitulo );
     
 }
 
@@ -322,20 +323,20 @@ img{
 .Personagens3{
     height: 100vh; 
     background: 
-    radial-gradient(rgba(0, 0, 0, 0),black),
+    radial-gradient(rgba(0, 0, 0, 0.4),black),
         url(https://ovicio.com.br/wp-content/uploads/2022/07/20220725-20220725_215557.jpg),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
     position: relative;
-    border-bottom: 2px solid var(--corTitulo);
+    border-bottom: 1px solid var(--corTitulo);
 
 }
 
 .Personagens3 img{
     height: 500px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo);
+    border: 1px solid ar(--corTitulo);
 }
 
 .Personagens3 .img7{
@@ -344,7 +345,7 @@ img{
 }
 
 .Personagens3 h1{
-    color: var(--corTexto);
+    color: var(--corTitulo);
     font-family: var(--fontTitulo);
     font-size: 90px;
     position: absolute;
@@ -362,7 +363,7 @@ img{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo );
+    border: 1px solid vr(--corTitulo );
     
 }
 
@@ -391,14 +392,14 @@ img{
     
     background-size: cover;
     position: relative;
-    border-bottom: 2px solid var(--corTitulo);
+    border-bottom: 1px solid var(--corTitulo);
 
 }
 
 .Personagens4 img{
     height: 500px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo);
+    border: 1px solid ar(--corTitulo);
 }
 
 .Personagens4 .img8{
@@ -407,7 +408,7 @@ img{
 }
 
 .Personagens4 h1{
-    color: var(--corTexto);
+    color: var(--corTitulo);
     font-family: var(--fontTitulo);
     font-size: 90px;
     position: absolute;
@@ -425,7 +426,7 @@ img{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid var(--corTitulo );
+    border: 1px solid vr(--corTitulo );
     
 }
 

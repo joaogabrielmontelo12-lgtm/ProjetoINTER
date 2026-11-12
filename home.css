@@ -23,7 +23,7 @@ body{
 }
 
 nav{   
-    background-color: black;
+    background-color:black;
     display: flex;
     align-items: center;
     height: 70px;
@@ -86,7 +86,10 @@ footer {
 }
 
 .capah{
-    background-image: url(IMG/926668.jpg);
+    background: 
+    radial-gradient(rgba(0, 0, 0, 0),black),
+        url(IMG/926668.jpg),
+        radial-gradient(rgba(0,0,0,0),black);
     background-size: cover;
     height: 100vh;
     width: 100%;
