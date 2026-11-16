@@ -20,6 +20,9 @@
  
 body{
     background-color: black;
+    background-image: url(https://images2.alphacoders.com/131/thumb-1920-1314213.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{   
@@ -72,7 +75,7 @@ nav a:hover {
 }
 
 
-footer {
+footer{
     display: flex;
     font-family: var(--fontTitulo);
     width: 100%;
@@ -83,23 +86,25 @@ footer {
     padding-left: 35px;
     align-items: center;
     font-size: 11px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
 
 }
 
 .titulog{
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 700px;
+    top: 10%;
+    left: 40.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 .titulog h1{
     color: var(--corTexto);
     font-family: var(--fontTitulo);
-    font-size: 50px;
-    position: absolute;
+    font-size: 70px;
     font-weight: var(--fontEspessura2);
 
 }
@@ -107,14 +112,21 @@ footer {
 .titulog h2{
     color: var(--corTitulo);
     font-family: var(--fontTitulo);
-    font-size: 22px;
+    font-size: 30px;
     font-weight: var(--fontEspessura);
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s ease
 
 }
 
 .imgGaleria .gp1{
     display: flex;
     align-items: center;
+    border-radius: 10px;
     gap: 15px;
 }
 
@@ -138,8 +150,9 @@ footer {
 
 .imgGaleria figure img{
     width: 450px;
-    border-radius: 10px;
-    height: 235px;         
-    object-fit: cover ;      
+    height: 255px;
+    border-radius: 10px;        
+    object-fit: cover;      
     padding: 10px;
 }
+

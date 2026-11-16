@@ -171,10 +171,12 @@ img{
 .figuras figure {
     border: 2px solid ar(--corTitulo);
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     width: 380px;
     height: 350px;
     flex-shrink: 0;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
 }
 
 .figuras figcaption h2{
@@ -215,6 +217,9 @@ img{
 .Personagens .img5{
     top: 12%;
     left: 15%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    
 }
 
 .Personagens h1{
@@ -237,13 +242,14 @@ img{
     padding: 30px;
     border-radius: 10px;
     border: 1px solid vr(--corTitulo);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     
 }
 
 .Personagens .info1 h2{
-    font-size:20px ;
+    font-size:24px ;
+    font-weight: var(--fontEspessura);
     font-family: var(--fontTitulo);
-    font-size: var(--tamanhoTexto);
 }
 
 .Personagens .perso1{
@@ -267,6 +273,7 @@ img{
     background-size: cover;
     position: relative;
     border-bottom: 1px solid var(--corTitulo);
+    
 
 }
 
@@ -279,6 +286,8 @@ img{
 .Personagens2 .img6{
     top: 12%;
     left: 15%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
 }
 
 .Personagens2 h1{
@@ -301,13 +310,14 @@ img{
     padding: 30px;
     border-radius: 10px;
     border: 1px solid vr(--corTitulo );
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     
 }
 
 .Personagens2 .info2 h2{
-    font-size:20px ;
+    font-size:24px ;
+    font-weight: var(--fontEspessura);
     font-family: var(--fontTitulo);
-    font-size: var(--tamanhoTexto);
 }
 
 .Personagens2 .perso2{
@@ -342,6 +352,8 @@ img{
 .Personagens3 .img7{
     top: 12%;
     left: 15%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
 }
 
 .Personagens3 h1{
@@ -364,13 +376,14 @@ img{
     padding: 30px;
     border-radius: 10px;
     border: 1px solid vr(--corTitulo );
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     
 }
 
 .Personagens3 .info3 h2{
-    font-size:20px ;
+    font-size:24px ;
+    font-weight: var(--fontEspessura);
     font-family: var(--fontTitulo);
-    font-size: var(--tamanhoTexto);
 }
 
 .Personagens3 .perso3{
@@ -405,6 +418,8 @@ img{
 .Personagens4 .img8{
     top: 12%;
     left: 15%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
 }
 
 .Personagens4 h1{
@@ -427,13 +442,14 @@ img{
     padding: 30px;
     border-radius: 10px;
     border: 1px solid vr(--corTitulo );
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     
 }
 
 .Personagens4 .info4 h2{
-    font-size:20px ;
+    font-size:24px ;
+    font-weight: var(--fontEspessura);
     font-family: var(--fontTitulo);
-    font-size: var(--tamanhoTexto);
 }
 
 .Personagens4 .perso4{
