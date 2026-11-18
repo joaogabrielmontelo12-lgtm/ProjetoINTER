@@ -101,6 +101,8 @@ footer {
     background-repeat: no-repeat;
 }
 
+
+
 .ftfilme {
     display: none;
 }
@@ -121,9 +123,9 @@ footer {
     font-family: var(--fontTitulo);
     font-weight: var(--fontEspessura2);
     color:var(--corTitulo);
-    padding-bottom:5px ;
-    font-size: 72px;
-    height: 80px;
+    padding-bottom:5px;
+    font-size: 80px;
+    height: 84px;
 
     
 }

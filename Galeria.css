@@ -95,7 +95,7 @@ footer{
 .titulog{
     position: absolute;
     top: 10%;
-    left: 40.5%;
+    left: 39%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +104,7 @@ footer{
 .titulog h1{
     color: var(--corTexto);
     font-family: var(--fontTitulo);
-    font-size: 70px;
+    font-size: 90px;
     font-weight: var(--fontEspessura2);
 
 }
@@ -118,7 +118,7 @@ footer{
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 0.6s ease
 
 }
@@ -143,16 +143,17 @@ img:hover{
     width: 1000px;
     padding: 50px;
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 23%;
+    left: 8.7%;
 }
 
 
 .imgGaleria figure img{
-    width: 450px;
+    width: 470px;
     height: 255px;
     border-radius: 10px;        
     object-fit: cover;      
-    padding: 10px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.9);
 }
+
 
