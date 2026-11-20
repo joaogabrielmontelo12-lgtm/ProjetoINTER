@@ -17,10 +17,11 @@
     box-sizing: border-box;
 }
 
- 
+
 body{
     background-color: black;
     background-image: url(IMG/fundo_sem_colar.png);
+    background-image: url(IMG/thumb-1920-1314213.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
