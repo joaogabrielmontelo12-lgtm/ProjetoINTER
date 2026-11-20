@@ -20,7 +20,7 @@
  
 body{
     background-color: black;
-    background-image: url(https://images2.alphacoders.com/131/thumb-1920-1314213.jpeg);
+    background-image: url(IMG/fundo_sem_colar.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,6 +35,7 @@ nav{
     top: 0;
     width: 100%;
     z-index: 100;
+    border-bottom: 1px solid #3a3a3a;
 }
 .txt{ 
     position: absolute;
@@ -89,6 +90,7 @@ footer{
     position: absolute;
     bottom: 0%;
     left: 0%;
+    border-top: 1px solid #3a3a3a;
 
 }
 
@@ -154,6 +156,171 @@ img:hover{
     border-radius: 10px;        
     object-fit: cover;      
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.9);
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+
+
+@media (max-width: 1600px) {
+
+    .logo{
+        left: 3%;
+        margin-top: 0;
+        padding-top: 22px;
+    }
+
+    .txt{
+        left: auto;
+        right: 5%;
+        margin-right: 0;
+    }
+
+    footer{
+        position: static;
+        margin-top: auto;
+    }
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulog{
+        position: static;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .imgGaleria{
+        position: static;
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 40px 5% 100px;
+    }
+
+
+    .imgGaleria figure{
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .imgGaleria figure img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 470 / 255;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .txt{
+        right: 3%;
+        width: auto;
+        gap: 30px;
+        font-size: 10px;
+    }
+
+    .titulog h1{
+        font-size: 70px;
+    }
+
+    .titulog h2{
+        font-size: 24px;
+    }
+
+    .imgGaleria{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .imgGaleria .gp1,
+    .imgGaleria .gp2{
+        display: contents;
+    }
+
+    .imgGaleria figure{
+        flex: 0 0 calc(50% - 7.5px);
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .logo img{
+        width: 100px;
+        padding-top: 8px;
+        margin-left: 10%;
+        
+    }
+
+    .menu-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: 5%;
+        background: none;
+        border: none;
+        color: var(--corTexto);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .txt{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 12px;
+        padding: 25px 0;
+        background-color: black;
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    .txt.aberto{
+        display: flex;
+        gap: 30px;
+    }
+
+
+    .titulog{
+        padding-top: 120px;
+
+    }
+
+    .titulog h1{
+        font-size: clamp(40px, 12vw, 56px);
+    }
+
+    .titulog h2{
+        font-size: 18px;
+    }
+
+    .imgGaleria{
+        padding: 40px 5% 60px;
+    }
+
+    .imgGaleria figure{
+        flex: 0 0 100%;
+
+    }
+
+    footer h2{
+        font-size: 14px;
+    }
 }
 
 

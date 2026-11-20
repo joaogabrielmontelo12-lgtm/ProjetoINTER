@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="//db.onlinewebfonts.com/c/adfd298e421945768d7bf13da3ee8a45?family=BankGothic+Md+BT+Medium" rel="stylesheet" type="text/css"/>
 </head>
+
 <body id="Perso">
 
     <header>
@@ -17,6 +18,9 @@
             <div class="logo">
                 <a href="index.html"><img src="IMG/JoãoGabrieleJoãoGuilherme_1i1.jpg" alt="logo"></a>
             </div>
+
+            <button class="menu-btn" aria-label="Abrir menu">☰</button>
+
             <div class="txt">
                 <a href="Filme.html"><h2>Filme</h2></a>
                 <a href="Persongens.html"><h2>Personagens</h2></a>
@@ -25,6 +29,8 @@
             </div>
         </nav>
     </header>
+
+
 
     <section class="pt">
         <div class="PP">
@@ -126,5 +132,20 @@
         <h2>© 2026 Pantera Negra — Projeto Escolar</h2>
     </footer>
     
+
+    <script>
+        const botao = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.txt');
+
+        botao.addEventListener('click', () => {
+            menu.classList.toggle('aberto');
+        });
+
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('aberto');
+            });
+        });
+    </script>
 </body>
 </html>

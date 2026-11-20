@@ -37,6 +37,7 @@ nav{
     top: 0;
     width: 100%;
     z-index: 100;
+    border-bottom: 1px solid #3a3a3a;
 }
 .txt{ 
     position: absolute;
@@ -66,7 +67,7 @@ nav a:hover {
     height: 100px;
     position: absolute;
     left: 7%;
-    margin-top:30px ;
+    padding-top:20px ;
 }
 
 
@@ -88,6 +89,7 @@ footer {
     padding-left: 35px;
     align-items: center;
     font-size: 11px;
+    border-top: 1px solid #3a3a3a;
 
 }
 
@@ -100,8 +102,7 @@ footer {
     
     background-size: cover;
     background-position: center;
-    border-bottom: 1px solid var(--corTitulo);
-    min-height: 100vh; 
+    min-height: 101vh; 
     padding-bottom: 60px;
 }
 
@@ -203,7 +204,7 @@ img{
     
     background-size: cover;
     position: relative;
-    border-bottom: 1px solid var(--corTitulo);
+    border-top: 1px solid #3a3a3a;
 
 }
 
@@ -271,7 +272,7 @@ img{
     
     background-size: cover;
     position: relative;
-    border-bottom: 1px solid var(--corTitulo);
+    border-top: 1px solid #3a3a3a;
     
 
 }
@@ -338,7 +339,7 @@ img{
     
     background-size: cover;
     position: relative;
-    border-bottom: 1px solid var(--corTitulo);
+    border-top: 1px solid #3a3a3a;
 
 }
 
@@ -404,7 +405,7 @@ img{
     
     background-size: cover;
     position: relative;
-    border-bottom: 1px solid var(--corTitulo);
+    border-top: 1px solid #3a3a3a;
 
 }
 
@@ -465,6 +466,7 @@ img{
 
     .logo{
         left: 3%;
+        padding-top: 22px ;
     }
 
     .txt{
@@ -472,6 +474,7 @@ img{
         right: 3%;
         width: auto;
         margin-right: 0;
+        font-size: 10px;
         gap: 25px;
     }
 
@@ -488,26 +491,30 @@ img{
 
     .Personagens .perso1{
         gap: 60px;
-        width: 85%;              /* corrige a barra lateral */
+        width: 85%;
     }
 }
 
+.menu-btn{
+    display: none;
+}
 
-/* ---------- CELULAR / TABLET PEQUENO ---------- */
+
+
 @media (max-width: 768px) {
 
-    /* NAV */
     .txt{
         gap: 12px;
         font-size: 5px;
     }
 
     .logo img{
-        width: 80px;
-        padding-top: 12px;
+        width: 100px;
+        padding-top: 8px;
+        margin-left: 10%;
+        
     }
 
-    /* SEÇÃO PRINCIPAL */
     .pt{
         
         min-height: 100vh;
@@ -697,6 +704,40 @@ img{
         padding: 20px;
     }
 
+    .menu-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: 5%;
+        background: none;
+        border: none;
+        color: var(--corTexto);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .txt{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: auto;
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        background-color: black;
+        font-size: 12px;
+        height:200px;
+    }
+
+    .txt.aberto{
+        display: flex;  
+        gap: 30px;
+        border-bottom: 1px solid #3a3a3a;
+    }
 
 }
 

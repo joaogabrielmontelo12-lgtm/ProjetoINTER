@@ -17,6 +17,9 @@
             <div class="logo">
                 <a href="index.html"><img src="IMG/JoãoGabrieleJoãoGuilherme_1i1.jpg" alt="logo"></a>
             </div>
+
+            <button class="menu-btn" aria-label="Abrir menu">☰</button>
+            
             <div class="txt">
                 <a href="Filme.html"><h2>Filme</h2></a>
                 <a href="Persongens.html"><h2>Personagens</h2></a>
@@ -37,5 +40,21 @@
     <footer>
         <h2>© 2026 Pantera Negra — Projeto Escolar</h2>
     </footer>
+
+    <script>
+        const botao = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.txt');
+
+        botao.addEventListener('click', () => {
+            menu.classList.toggle('aberto');
+        });
+
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('aberto');
+            });
+        });
+    </script>
+
 </body>
 </html>
