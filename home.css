@@ -204,7 +204,81 @@ img.logopn:hover {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+
+    .logo img{
+        width: 100px;
+        padding-top: 8px;
+        margin-left: 10%;
+        
+    }
+
+    .menu-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: 5%;
+        background: none;
+        border: none;
+        color: var(--corTexto);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .txt{
+        display: none;              
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 12px;
+        padding: 25px 0;
+        background-color: black;
+        border-bottom: 1px solid #3a3a3a;  
+    }
+
+    .txt.aberto{
+        display: flex;
+        display: flex;  
+        gap: 30px;
+        border-bottom: 1px solid #3a3a3a;                
+    }
+
+    .capah .texto{
+        top: 55%;
+    }
+
+    img.logopn{
+        max-width: 800px;
+    }
+
+    .capah h2{
+        font-size: 20px;
+    }
+
+    .texto img{
+    width: 470px; 
+    }
+
+    .texto h2{
+        font-size: 18px;
+    }
+
+    footer h2{
+        font-size: 14px;
+    }
+
+    .capah{
+        background-position: 65% center;
+    }
+
+}
+
+@media (max-width: 426px) {
 
     .logo img{
         width: 100px;

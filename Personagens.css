@@ -219,7 +219,6 @@ img{
     left: 15%;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
-    
 }
 
 .Personagens h1{
@@ -241,7 +240,7 @@ img{
     background-color: black;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid vr(--corTitulo);
+    border: 1px solid vr(--corTitulo );
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
     
 }
@@ -261,7 +260,6 @@ img{
     gap: 350px;
     
 }
-
 
 .Personagens2{
     height: 100vh; 
@@ -368,8 +366,6 @@ img{
 
 .Personagens3 .info3{
     color: var(--corTexto);
-    
-    
     width: 550px;
     height: fit-content;
     background-color: black;
@@ -501,11 +497,11 @@ img{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
     .txt{
         gap: 12px;
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .logo img{
@@ -525,23 +521,30 @@ img{
     
 
     .PP h1{
-        font-size: 28px;
+        font-size: 40px;
         width: 90%;
         text-align: center;
         
     }
 
     .PP h2{
-        font-size: 16px;
+        font-size: 20px;
     }
 
-    .figuras{
-        min-width: 300px;
-        padding-top: 290px;
-        padding-left: 9%;
-        gap: 30px;
+    .figuras {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-left: 32px;
     }
 
+    .figuras a {
+        min-width: 0;
+    }
+
+    .figuras figure {
+        width: 100%;
+    }
     .figuras figcaption{
         padding-bottom: 12px;
         
@@ -562,7 +565,6 @@ img{
     .Personagens{
         height: auto;
         min-height: 100vh;
-        padding: 5%;
     }
 
     .Personagens h1{
@@ -579,9 +581,8 @@ img{
         gap: 30px;
         width: 100%;
         margin-top: 30px;
-        padding-left: 45px;
+        padding-left: 20px;
         padding-bottom: 20px;
-        
     }
 
     .Personagens img{
@@ -592,14 +593,15 @@ img{
     }
 
     .Personagens .info1{
-        max-width: 80%;
+        width: 100%;
+        max-width: 100%;           
         padding: 20px;
     }
 
     .Personagens2{
         height: auto;
         min-height: 100vh;
-        padding-right: 5%;
+        padding-right: 3%;
     }
 
     .Personagens2 h1{
@@ -628,14 +630,15 @@ img{
     }
 
     .Personagens2 .info2{
-        max-width: 80%;
+        width: 100%;
+        max-width: 100%;           
         padding: 20px;
     }
 
     .Personagens3{
         height: auto;
         min-height: 100vh;
-        padding-right: 5%;
+        padding-right: 3%;
     }
 
     .Personagens3 h1{
@@ -664,14 +667,15 @@ img{
     }
 
     .Personagens3 .info3{
-        max-width: 80%;
+        width: 100%;
+        max-width: 100%;           
         padding: 20px;
     }
 
     .Personagens4{
         height: auto;
         min-height: 100vh;
-        padding-right: 5%;
+        padding-right: 3%;
     }
 
     .Personagens4 h1{
@@ -700,8 +704,10 @@ img{
     }
 
     .Personagens4 .info4{
-        max-width: 80%;
+        width: 100%;
+        max-width: 100%;           
         padding: 20px;
+        margin-bottom: 100px;
     }
 
     .menu-btn{
@@ -738,21 +744,277 @@ img{
         gap: 30px;
         border-bottom: 1px solid #3a3a3a;
     }
+    
 
 }
 
-@media (max-width: 1500px) {
-    .Personagens .perso1{
-        left: 5%;
+@media (max-width: 426px) {
+
+    .txt{
+        gap: 12px;
+        font-size: 5px;
+    }
+
+    .logo img{
+        width: 100px;
+        padding-top: 8px;
+        margin-left: 10%;
+        
+    }
+
+    .pt{
+        
+        min-height: 100vh;
+        padding-bottom: 40px;
+        gap: 100px;
+    }
+
+    
+
+    .PP h1{
+        font-size: 28px;
         width: 90%;
-        gap: 60px;
-        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+
+    .PP h2{
+        font-size: 16px;
+    }
+
+    .figuras{
+
+        grid-template-columns: 1fr;
+        min-width: 300px;
+        padding-top: 290px;
+        padding-left: 9%;
+        gap: 30px;
+    }
+
+    .figuras figcaption{
+        padding-bottom: 12px;
+        
+    }
+
+    .figuras figure{
+    width: 90%;
+    max-width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+    .figuras img{
+        width: 100%;
+    }
+
+
+    .Personagens{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
         justify-content: center;
+        display: flex;
+    }
+
+    .Personagens .perso1{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
     }
 
     .Personagens .info1{
         width: 100%;
-        max-width: 550px;
+        max-width: 100%;           
+        padding: 20px;
+    }
+
+    .Personagens2{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens2 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens2 .perso2{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens2 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens2 .info2{
+        width: 100%;
+        max-width: 100%;           
+        padding: 20px;
+    }
+
+    .Personagens3{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens3 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens3 .perso3{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens3 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens3 .info3{
+        width: 100%;
+        max-width: 100%;           
+        padding: 20px;
+    }
+
+    .Personagens4{
+        height: auto;
+        min-height: 100vh;
+        padding-right: 5%;
+    }
+
+    .Personagens4 h1{
+        position: static;
+        font-size: 40px;
+        padding-top: 90px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .Personagens4 .perso4{
+        position: static;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Personagens4 img{
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .Personagens4 .info4{
+        width: 100%;
+        max-width: 100%;           
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+
+    .menu-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: 5%;
+        background: none;
+        border: none;
+        color: var(--corTexto);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .txt{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: auto;
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        background-color: black;
+        font-size: 12px;
+        height:200px;
+    }
+
+    .txt.aberto{
+        display: flex;  
+        gap: 30px;
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
+
+}
+
+
+@media (max-width: 768px) {
+
+    .Personagens .info1,
+    .Personagens2 .info2,
+    .Personagens3 .info3,
+    .Personagens4 .info4{
+        width: 100%;
+        max-width: 100%;           
+        padding: 20px;
+    }
+
+    .Personagens .info1 h2,
+    .Personagens2 .info2 h2,
+    .Personagens3 .info3 h2,
+    .Personagens4 .info4 h2{
+        font-size: 15px;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
     }
 }
+
 
