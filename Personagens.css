@@ -10,6 +10,9 @@
     
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 *{
     margin: 0px;
@@ -265,7 +268,7 @@ img{
     height: 100vh; 
     background: 
     radial-gradient(rgba(0, 0, 0, 0.2),black),
-        url(https://ovicio.com.br/wp-content/uploads/pantera-negra-killmonger.jpg),
+        url(IMG/pantera-negra-killmonger.avif),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
@@ -332,7 +335,7 @@ img{
     height: 100vh; 
     background: 
     radial-gradient(rgba(0, 0, 0, 0.2),black),
-        url(https://ovicio.com.br/wp-content/uploads/2022/07/20220725-20220725_215557.jpg),
+        url(IMG/20220725-20220725_215557.webp),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
@@ -396,7 +399,7 @@ img{
     height: 100vh; 
     background: 
     radial-gradient(rgba(0, 0, 0, 0),black),
-        url(https://rollingstone.com.br/wp-content/uploads/shuri_e_pantera_negra.jpg),
+        url(IMG/shuri_e_pantera_negra.jpg),
         radial-gradient(rgba(0,0,0,0.8),black);
     
     background-size: cover;
@@ -596,6 +599,7 @@ img{
         width: 100%;
         max-width: 100%;           
         padding: 20px;
+        text-align: center;
     }
 
     .Personagens2{
@@ -633,6 +637,7 @@ img{
         width: 100%;
         max-width: 100%;           
         padding: 20px;
+        text-align: center;
     }
 
     .Personagens3{
@@ -670,6 +675,7 @@ img{
         width: 100%;
         max-width: 100%;           
         padding: 20px;
+        text-align: center;
     }
 
     .Personagens4{
@@ -708,6 +714,7 @@ img{
         max-width: 100%;           
         padding: 20px;
         margin-bottom: 100px;
+        text-align: center;
     }
 
     .menu-btn{
