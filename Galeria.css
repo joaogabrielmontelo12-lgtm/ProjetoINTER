@@ -166,102 +166,22 @@ img:hover{
 
 
 
-@media (max-width: 1600px) {
 
-    .logo{
+@media (max-width: 769px) {
+
+
+    .logo {
         left: 3%;
         margin-top: 0;
         padding-top: 22px;
     }
 
-    .txt{
-        left: auto;
-        right: 5%;
-        margin-right: 0;
-    }
-
-    footer{
-        position: static;
-        margin-top: auto;
-    }
-
-    body{
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .titulog{
-        position: static;
-        padding-top: 100px;
-        text-align: center;
-    }
-
-    .imgGaleria{
-        position: static;
-        width: 100%;
-        max-width: 1500px;
-        margin: 0 auto;
-        padding: 40px 5% 100px;
-    }
-
-
-    .imgGaleria figure{
-        flex: 1 1 0;
-        min-width: 0;
-    }
-
-    .imgGaleria figure img{
-        width: 100%;
-        height: auto;
-        aspect-ratio: 470 / 255;
-    }
-}
-
-@media (max-width: 1100px) {
-
-    .txt{
-        right: 3%;
-        width: auto;
-        gap: 30px;
-        font-size: 10px;
-    }
-
-    .titulog h1{
-        font-size: 70px;
-    }
-
-    .titulog h2{
-        font-size: 24px;
-    }
-
-    .imgGaleria{
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    .imgGaleria .gp1,
-    .imgGaleria .gp2{
-        display: contents;
-    }
-
-    .imgGaleria figure{
-        flex: 0 0 calc(50% - 7.5px);
-    }
-}
-
-
-
-@media (max-width: 768px) {
-
-
-    .logo img{
+    .logo img {
         width: 100px;
         padding-top: 8px;
         margin-left: 10%;
-        
     }
+
 
     .menu-btn{
         display: block;
@@ -275,7 +195,7 @@ img:hover{
     }
 
     .txt{
-        display: none;
+        display: none;              
         position: absolute;
         top: 70px;
         left: 0;
@@ -288,40 +208,116 @@ img:hover{
         font-size: 12px;
         padding: 25px 0;
         background-color: black;
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;  
     }
 
     .txt.aberto{
         display: flex;
-        gap: 30px;
+        position: fixed;  
+        gap: 40px;
+        height: 250px;
+        align-items: start;
+        padding-left: 12px;
+        right: 0;
+        margin-right: 0;
+        left: auto;
+        width: 200px;
+        border-bottom: 1px solid #3a3a3a;   
+        border-radius: 0px 0px 0px 10px;             
     }
 
 
-    .titulog{
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        position: static;
+        margin-top: auto;
+    }
+
+    footer h2 {
+        font-size: 14px;
+    }
+
+    .titulog {
+        position: static;
+        padding-top: 100px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .titulog h1 {
+        font-size: 70px;
+    }
+
+    .titulog h2 {
+        font-size: 24px;
+    }
+
+
+    .imgGaleria {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto 80px;
+        padding: 40px 5% 100px;
+    }
+
+    .imgGaleria .gp1,
+    .imgGaleria .gp2 {
+        display: contents;
+    }
+
+    .imgGaleria figure {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .imgGaleria figure img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 470 / 255;
+    }
+}
+
+
+
+@media (max-width: 426px) {
+
+
+    .titulog {
         padding-top: 120px;
-
     }
 
-    .titulog h1{
+    .titulog h1 {
         font-size: clamp(40px, 12vw, 56px);
     }
 
-    .titulog h2{
+    .titulog h2 {
         font-size: 18px;
     }
 
-    .imgGaleria{
+
+    .imgGaleria {
+        grid-template-columns: 1fr;
         padding: 40px 5% 60px;
     }
 
-    .imgGaleria figure{
+    .imgGaleria figure {
         flex: 0 0 100%;
-
     }
 
-    footer h2{
-        font-size: 14px;
-    }
+
 }
+
+
+
 
 

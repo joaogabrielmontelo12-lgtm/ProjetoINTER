@@ -116,7 +116,7 @@ footer {
     left: 51%;
     transform: translate(-50%, -50%);
     width: 900px;
-    font-weight: var(--fontEspessura2);
+    font-weight: var(--fontEspessura);
 
 }
 
@@ -128,7 +128,7 @@ footer {
     top: 25%;
     left: 30%;
     width: 800px;
-    font-weight: var(--fontEspessura);
+    font-weight: var(--fontEspessura2);
 
 }
 
@@ -722,27 +722,34 @@ img{
     }
 
     .txt{
-        display: none;
+        display: none;              
         position: absolute;
         top: 70px;
         left: 0;
         right: auto;
         width: 100%;
-        margin-right: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        font-size: 12px;
         padding: 25px 0;
         background-color: black;
-        font-size: 12px;
-        height:200px;
+        border-bottom: 1px solid #3a3a3a;  
     }
 
     .txt.aberto{
+        display: flex;
         display: flex;  
-        gap: 30px;
-        border-bottom: 1px solid #3a3a3a;
+        gap: 40px;
+        height: 250px;
+        align-items: start;
+        padding-left: 12px;
+        right: 0;
+        left: auto;
+        width: 200px;
+        border-bottom: 1px solid #3a3a3a;   
+        border-radius: 0px 0px 0px 10px;             
     }
     
 
@@ -772,21 +779,21 @@ img{
     
 
     .PP h1{
-        font-size: 28px;
+        font-size: 40px;
         width: 90%;
         text-align: center;
         
     }
 
     .PP h2{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .figuras{
 
         grid-template-columns: 1fr;
         min-width: 300px;
-        padding-top: 290px;
+        padding-top: 330px;
         padding-left: 9%;
         gap: 30px;
     }
@@ -957,6 +964,8 @@ img{
         margin-bottom: 100px;
     }
 
+
+
     .menu-btn{
         display: block;
         margin-left: auto;
@@ -969,27 +978,34 @@ img{
     }
 
     .txt{
-        display: none;
+        display: none;              
         position: absolute;
         top: 70px;
         left: 0;
         right: auto;
         width: 100%;
-        margin-right: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        font-size: 12px;
         padding: 25px 0;
         background-color: black;
-        font-size: 12px;
-        height:200px;
+        border-bottom: 1px solid #3a3a3a;  
     }
 
     .txt.aberto{
+        display: flex;
         display: flex;  
-        gap: 30px;
-        border-bottom: 1px solid #3a3a3a;
+        gap: 40px;
+        height: 250px;
+        align-items: start;
+        padding-left: 12px;
+        right: 0;
+        left: auto;
+        width: 200px;
+        border-bottom: 1px solid #3a3a3a;   
+        border-radius: 0px 0px 0px 10px;             
     }
     
 

@@ -213,6 +213,7 @@ img.logopn:hover {
         
     }
 
+
     .menu-btn{
         display: block;
         margin-left: auto;
@@ -244,8 +245,15 @@ img.logopn:hover {
     .txt.aberto{
         display: flex;
         display: flex;  
-        gap: 30px;
-        border-bottom: 1px solid #3a3a3a;                
+        gap: 40px;
+        height: 250px;
+        align-items: start;
+        padding-left: 12px;
+        right: 0;
+        left: auto;
+        width: 200px;
+        border-bottom: 1px solid #3a3a3a;   
+        border-radius: 0px 0px 0px 10px;             
     }
 
     .capah .texto{
@@ -318,8 +326,15 @@ img.logopn:hover {
     .txt.aberto{
         display: flex;
         display: flex;  
-        gap: 30px;
-        border-bottom: 1px solid #3a3a3a;                
+        gap: 40px;
+        height: 250px;
+        align-items: start;
+        padding-left: 12px;
+        right: 0;
+        left: auto;
+        width: 200px;
+        border-bottom: 1px solid #3a3a3a;   
+        border-radius: 0px 0px 0px 10px;             
     }
 
     .capah .texto{
