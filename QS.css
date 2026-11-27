@@ -32,7 +32,7 @@ body{
     width: 100%;
     background:
         radial-gradient(rgba(0, 0, 0, 0.5),black),
-        url(IMG/pantera_negra.jpeg),
+        url(IMG/pantera_negra.jpg),
         radial-gradient(rgba(0,0,0,0.9),black);
     
     background-size: cover;
